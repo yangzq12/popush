@@ -1,4 +1,4 @@
-var app = app || {};
+﻿var app = app || {};
 
 /* 房间控制器数据 */
 (function() {
@@ -117,7 +117,7 @@ app.modeMap = {
   'xml':    'application/xml',
 };
 
-app.RunableExt = ['c','cpp', 'js', 'py', 'pl','rb','lua', 'java'];
+app.RunableExt = ['c','cpp', 'js', 'py', 'pl','rb','lua', 'java'，'hs'];
 app.DebugableExt = ['c', 'cpp'];
 
 app.Room = Room;

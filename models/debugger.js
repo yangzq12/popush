@@ -22,7 +22,7 @@ function Debugger(name, type, src){
 	that.src = src;
 	that.dir = prefix + '/' + new Date().getTime().toString();
 	that.path = that.dir + '/' + that.name;
-	that.clean = 'rm -rf ' + that.dir;
+	that.clean = 'rmdir /s /q ' + that.dir;
 	if(process.platform == 'linux'){
 		switch(type){
 			case 'c':
